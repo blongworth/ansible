@@ -1,0 +1,15 @@
+  - name: Install packages
+    apt: name={{item}}
+    with_items:
+      - neovim
+      - git
+      - curl
+      - htop
+      - tmux
+      - cifs-utils
+      - fish
+      - keyutils
+      - csvkit
+      - csvkit-doc
+      - unixodbc
+      - unixodbc-dev
